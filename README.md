@@ -41,6 +41,9 @@ Built with **Python**, **OpenCV**, **PyAutoGUI**, the **Windows native Win32 API
 
 ---
 
+<img width="1600" height="893" alt="demo" src="https://github.com/user-attachments/assets/f2aa1108-3025-4e02-8f3e-d26918d59dd9" />
+
+
 ## 🔬 How It Works (Under the Hood)
 
 1. **Hand landmark detection (MediaPipe Tasks API)** – Unlike older tutorials that rely on the deprecated `mp.solutions.hands` API (removed in MediaPipe 0.10.30+), this project uses the modern `mediapipe.tasks.python.vision.HandLandmarker` model (`hand_landmarker.task`). It tracks 21 3D landmarks on your hand in real time.
